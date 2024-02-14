@@ -1,0 +1,99 @@
+*,
+*::after,
+*::before
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+}
+
+.box
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    background: rebeccapurple;
+    color: #fff;
+}
+
+
+a.logo{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+ span{
+    color: red;
+    margin: 40px;
+}   
+
+.edit
+{
+    color: #fff;
+}
+
+a.logo:hover{
+    letter-spacing: .2em;
+    text-shadow: 1px 1px 2px #000;
+    transition: all 0.5s ease-in-out;
+
+}
+label{
+    text-decoration: underline;
+    letter-spacing: .2em;
+}
+
+.subm{
+    margin: auto 60px;
+    background: #fff;
+    color: rebeccapurple;
+}
+
+.topic
+{
+    margin: 40px;
+}
+
+footer
+{
+    background: #000;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 10vh;
+    letter-spacing: .6em;
+    color: #fff;
+}
+
+.logo
+{
+    display: inline;
+    position: fixed;
+    right: 5%;
+    top: 3%;
+}
+
+.success-message {
+    color: green;
+    font-size: 2em;
+}
+
+.error-message {
+    color: red;
+}
+
+.link {
+    color: blue;
+    text-decoration: none;
+}
